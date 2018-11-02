@@ -21,7 +21,10 @@ namespace RpgAppLab3
             if (command == "names")
             {
 
-                var allNames = new[] { "Ben", "David", "Dana", "Felix", "Elrond", "Kalle"};
+
+
+                var allNames = new[] { "Ben", "David", "Dana", "Felix", "Elrond", "Yen" };
+
 
 
 
