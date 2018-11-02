@@ -23,6 +23,7 @@ namespace RpgAppLab3
 
                 var allNames = new[] { "Ben", "David", "Dana", "Felix", "Elrond", "Elrond den andre", "Elrond den tredje" };
 
+                // كيف حالك ؟ كيف حالك ؟ كيف حالك ؟ كيف حالك ؟ كيف حالك ؟ كيف حالك ؟ كيف حالك ؟ كيف حالك ؟ كيف حالك ؟
 
                 var randomIndex = rnd.Next(allNames.Length);
                 Console.WriteLine(allNames[randomIndex]);
@@ -33,7 +34,6 @@ namespace RpgAppLab3
                 var randomIndex = rnd.Next(tolkienNames.Length);
                 Console.WriteLine(tolkienNames[randomIndex]);
             }
-            Console.WriteLine("What do you want? ");
             Console.ReadKey();
         }
     }
