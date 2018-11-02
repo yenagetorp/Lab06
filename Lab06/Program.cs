@@ -21,7 +21,7 @@ namespace RpgAppLab3
             if (command == "names")
             {
 
-                var allNames = new[] { "Ben", "David", "Dana", "Felix", "Elrond", "Elrond den andre", "Yen added", "Cengiz added too" };
+                var allNames = new[] { "Ben", "David", "leif", "Dana", "Felix", "Elrond", "Elrond den andre", "Yen added", "Cengiz added too" };
 
 
                 var randomIndex = rnd.Next(allNames.Length);
