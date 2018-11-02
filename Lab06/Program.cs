@@ -20,6 +20,7 @@ namespace RpgAppLab3
             }
             if (command == "names")
             {
+<<<<<<< HEAD
                 var allNames = new[] { "Ben", "Felix", "Elrond" };
 
 
@@ -29,6 +30,12 @@ namespace RpgAppLab3
 
 
 
+=======
+
+                var allNames = new[] { "Ben", "David", "Dana", "Felix", "Elrond" };
+
+                // كيف حالك ؟ كيف حالك ؟ كيف حالك ؟ كيف حالك ؟ كيف حالك ؟ كيف حالك ؟ كيف حالك ؟ كيف حالك ؟ كيف حالك ؟
+>>>>>>> master
 
                 var randomIndex = rnd.Next(allNames.Length);
                 Console.WriteLine(allNames[randomIndex]);
