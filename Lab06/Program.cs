@@ -23,7 +23,7 @@ namespace RpgAppLab3
 
                 var allNames = new[] { "Ben", "David", "Dana", "Felix", "Elrond" };
 
-
+                // كيف حالك ؟ كيف حالك ؟ كيف حالك ؟ كيف حالك ؟ كيف حالك ؟ كيف حالك ؟ كيف حالك ؟ كيف حالك ؟ كيف حالك ؟
 
                 var randomIndex = rnd.Next(allNames.Length);
                 Console.WriteLine(allNames[randomIndex]);
